@@ -1,0 +1,1 @@
+My first project in my formation bootcamp of Java, Angular and Spring. In this project i used the basics elements tag of html to creat a mini blog with images and navbar. And to stylish it i used css.
