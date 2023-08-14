@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+      fieldset {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+        padding-bottom: 1em;
+        border-radius: 5px;
+        background-color: slategray;
+        
+        
+      }
+      
+      body {
+        background-image: url(Youtube/PersonalDetails.jpg);
+        background-size: cover;
+        
+      }
+
+      p {
+        padding: 0.2em;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      form {
+       color: black;
+       font-size: 20px;
+       font-family: tahoma;
+       text-align:left;
+       padding: 0px;
+       margin: 0px;
+
+      }
+
+      .btn {
+       width: 0 auto;
+       height: 40px;
+       background-color: #354153;
+       cursor: pointer;
+       
+      }
+
+      .btn:hover {
+       color: #e5e8ec;
+       background-color: rgb(2, 22, 39);
+      }
+
+      .btn:hover:after {
+       width: 100%;
+
+      }
+
+      .address {
+        margin-top: 6px;
+      }
+      
+      input {
+        border-radius: 4px 4px;
+        border: 1px dotted #999;
+
+      }
+
+      button,
+      input,
+      select,
+      textarea {
+       font-family: inherit;
+       font-size: 100%;
+       width: 100%;
+       
+      }
+
+      input {
+        margin-top: 10px;
+        
+      }
+      
+      select {
+        margin-top: 10px;
+      }
+
+      span {
+        float: right;
+        display: flex;
+        margin-left: 100px;
+      }
+        
+    </style>
+  </head>
+<body>
+
+  <form>
+    <fieldset>
+      <p><u1>Personal Details</u1></p> 
+      
+      <label for="cars">Situation</label>
+      <select id="Situation" name="Situation">
+      <option value="none">--None--</option>
+      <option value="single">Single</option>
+      <option value="married">Married</option>
+      <option value="divorced">Divorced</option>
+      <option value="widower">Widower</option>
+      </select><br><br>
+
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" value=""><br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" value=""><br><br>
+
+      <label for="gender">Gender :</label>
+      <span><label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="Male"></span>
+      
+      <span><label for="female">Female</label><input type="radio" id="female" name="gender" value="Female">
+      </span>
+      <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email"  name="email">
+      <br><br>
+
+      <label for="Birth">Date of Birth:</label>
+      <input type="date" id="Birth" name="Birth" class="birth">
+      <br><br>
+
+      <label>Address:</label><br>
+      <textarea name="address" rows="3" cols="25" class="address"></textarea>
+      <br><br>
+
+      <button class="btn" type="button">Submit</button>
+
+    </fieldset>
+  </form>
+</body>
+</html>
