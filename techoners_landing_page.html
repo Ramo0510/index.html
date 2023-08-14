@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Techoners landing page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+     
+     body {
+      margin: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      overflow-x:hidden;
+     }
+
+     #container {
+      background-color: #01df70;
+      
+     }
+     
+     a {
+      text-decoration: none;
+      color: white;
+      margin-top: 30px;
+      margin-right: 20px;
+
+     }
+
+     header {
+      width: 100vw;
+      background-color:#01df70;
+      top: 0; 
+      z-index: 1000; 
+      position: fixed; 
+      
+     }
+
+     nav { 
+      display: flex; 
+      width: 70%; 
+      position: sticky;
+      justify-content: space-between; 
+
+      } 
+
+
+    img {
+      width: 180px;  
+      height: 88px; 
+     } 
+    
+    #cover {
+      width: 59em;
+      height: 40rem;
+      margin-top: -3px;
+      margin-bottom: -4px;
+      
+
+    }
+
+    #transparent {
+      height: 17rem;
+      width: 20em;
+      background-color: rgba(1, 223, 112, 0.6);
+      position: absolute;
+      right: 370px;
+      bottom: 180px;
+
+    }
+    
+    #acceuil {
+      height: 14.5rem;
+      width: 20em;
+      background-color: white;
+      position: relative;
+      left: 100px;
+      width: 20em;
+      padding: 20px;
+      padding-left: 50px;
+      margin-bottom: 5px;
+    }
+
+    button {
+      cursor: pointer;
+      height: 50px;
+      width: 150px;
+      padding: 5px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 30px;
+      background-color: #01df70;
+      border: none;
+      color: white;
+    }
+
+    #services {
+      display: block;
+      width: 200px;
+      text-align: left;
+      margin-top: -40px;
+    }
+   
+    .services {
+      cursor: pointer;
+      height: 50px;
+      width: 150px;
+      padding: 5px;
+      display: inline;
+      text-align: center;
+      background-color: #01df70;
+      border: none;
+      color: white;
+      margin-top: 0px;
+    }
+
+    #web {
+      display: block;
+      width: 200px;
+    }
+
+    #desktop {
+      color: #01df70; 
+      margin: 0 auto;
+      display: block;
+      font-size: 40px;
+
+    }
+
+    h5 {
+      margin-bottom: 0px;
+    }
+
+    #design {
+      color: #01df70; 
+      margin: 0 auto;
+      display: block;
+      font-size: 40px;
+    }
+
+    #graphic {
+      display: block;
+      width: 200px;
+    }
+
+    #span {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      margin-left: 190px;
+      width: 70%;
+      text-align: center;
+    }
+    
+    #social-media {
+      color: white;
+      width: 50px;
+      bottom: 60px;
+      position: relative;
+      font-size: 20px;
+      margin-left: 40px;  
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      
+      width: 100%;
+   
+    }
+
+    .footerpart {
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      margin: 0 auto;
+      text-decoration: underline;
+    }
+    
+    </style>
+  </head>
+
+<body>
+
+  <div id="container">
+    <header>
+   
+      <nav>
+     <img src="Techoners.jpg"> 
+   
+    <a href="Home">Home</a>
+    <a href="Service">Service</a>
+    <a href="Journal">Journal</a>
+    <a href="Blog">Blog</a>
+    <a href="Portfolio">Portfolio</a>
+    <a href="Mixing">Mixing</a>
+    <a href="Contact">Contact</a>
+  
+  
+   </nav>
+   </header>
+    <div>
+        <img id="cover" src="sea.jpg">
+
+       <div id="transparent">
+        <div id="acceuil">
+          <h1>Stay<br> with Techoners</h1>
+          <p>Techoners, an IT-enabled (complete web design development & Graphic design)
+            Twitter Live is a product design concept for a new social media experience.</p>
+            <button type="button">Learn More →</button>
+        </div>
+      </div>
+      
+        <i style="cursor: pointer;" id="social-media" class="fab fa-instagram"></i>
+        <i style="cursor: pointer;" id="social-media" class="fab fa-twitter"></i>
+        <i style="cursor: pointer;" id="social-media" class="fab fa-facebook"></i>
+        <i style="cursor: pointer;" id="social-media" class="fab fa-google"></i>
+      
+    </div>
+  </div>
+
+  <div id="span">
+  <span id="services">
+    <h2>OUR SERVICES</h2>
+    <p style="font-size: 15px;">Web development encompasses delivering websites, cybersecurity, UX/UI, 
+      eCommerce.</p>
+    <button class="services" type="button">All Services →</button>
+  </span>
+
+  <span id="web">
+    <i id="desktop" class="fas fa-desktop"></i>
+    <h5>Web Development</h5>
+    <p style="font-size: 15px;">A web development company helps you build a website or an application for
+       business or personal use.</p>
+  </span>
+
+  <span id="graphic">
+    <i id="design" class="fas fa-palette"></i>
+    <h5>Graphic Design</h5>
+    <p style="font-size: 15px;">Graphic design has, different areas of knowledge focused on any visual 
+      communication system.</p>
+  </span>
+  </div>
+  <br>
+  <br>
+  <footer>
+    <div class="footerpart">
+      <p>&copy; 2032 Techoners. All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a>|  <a href="#">Terms of Use</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
